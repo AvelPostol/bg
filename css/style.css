@@ -5252,25 +5252,25 @@ li {
 
 @font-face {
   font-family: 'Roboto-mono';
-  src: url("/fonts/Robotomonomedium.ttf");
+  src: url("./fonts/Robotomonomedium.ttf");
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Medium.ttf");
+  src: url("./fonts/Roboto-Medium.ttf");
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Regular.ttf");
+  src: url("./fonts/Roboto-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("/fonts/Roboto-Thin.ttf");
+  src: url("./fonts/Roboto-Thin.ttf");
   font-weight: 300;
 }
 
@@ -6050,7 +6050,7 @@ max-width: 1146px;
 
 .city::before {
   content: '';
-  background-image: url("/img/metka.svg");
+  background-image: url("./img/metka.svg");
   width: 33px;
   height: 45px;
   position: absolute;
@@ -6273,7 +6273,7 @@ max-width: 1146px;
 }
 
 .proj-img__item_2:after {
-  content: url(/img/play.png);
+  content: url(./img/play.png);
   z-index: 10000;
   position: absolute;
   top: 50%;
@@ -6298,7 +6298,7 @@ max-width: 1146px;
   background-size: 280px;
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-image: url(/img/line.png);
+  background-image: url(./img/line.png);
 }
 
 .proj__title_2 {
@@ -6393,7 +6393,7 @@ button::-moz-focus-inner {
 }
 
 .wrapper-conect__ban {
-  background-image: url("/img/fone_1.png");
+  background-image: url("./img/fone_1.png");
 }
 
 textarea::-webkit-input-placeholder {
@@ -6440,7 +6440,7 @@ input::-moz-placeholder {
 .wrapper-conect__ban .form-collumn:last-child:after {
   position: absolute;
   content: '';
-  background-image: url("/img/textarea.svg");
+  background-image: url("./img/textarea.svg");
   width: 13px;
   height: 13px;
   right: 0px;
@@ -6739,7 +6739,7 @@ logo-company {
   background-size: 280px;
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-image: url(/img/line.png);
+  background-image: url(./img/line.png);
 }
 
 .covid-pop {
@@ -6853,7 +6853,7 @@ input {
   background-size: 280px;
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-image: url(/img/line.png);
+  background-image: url(./img/line.png);
 }
 
 
@@ -7968,7 +7968,7 @@ input {
   }
 
   .spoiler-item:before {
-    content: url("/img/cross.svg");
+    content: url("./img/cross.svg");
     position: absolute;
     width: -webkit-fit-content;
     width: -moz-fit-content;
